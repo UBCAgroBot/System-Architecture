@@ -1,0 +1,73 @@
+Factory Details:
+  Rank                     none (0)
+  Long-name                Arducam source plugin
+  Klass                    Source/Video
+  Description              Arducam source plugin with internal frame generator
+  Author                   Your Name
+
+Plugin Details:
+  Name                     arducamsrc
+  Description              Arducam source plugin with internal frame generator
+  Filename                 /home/user/shuyang/appsrc_template/libgstarducamsrc.so
+  Version                  1.0
+  License                  Proprietary
+  Source module            arducamsrc
+  Binary package           Custom Arducam source plugin
+  Origin URL               http://example.com/
+
+GObject
+ +----GInitiallyUnowned
+       +----GstObject
+             +----GstElement
+                   +----GstBaseSrc
+                         +----GstPushSrc
+                               +----GstArducamSrc
+
+Pad Templates:
+  SRC template: 'src'
+    Availability: Always
+    Capabilities:
+      video/x-raw
+                 format: { (string)RGB, (string)BGR, (string)GRAY8 }
+                  width: [ 1, 2147483647 ]
+                 height: [ 1, 2147483647 ]
+              framerate: [ 1/1, 120/1 ]
+
+Element has no clocking capabilities.
+Element has no URI handling capabilities.
+
+Pads:
+  SRC: 'src'
+    Pad Template: 'src'
+
+Element Properties:
+  blocksize           : Size in bytes to read per buffer (-1 = default)
+                        flags: readable, writable
+                        Unsigned Integer. Range: 0 - 4294967295 Default: 4096 
+  do-timestamp        : Apply current stream time to buffers
+                        flags: readable, writable
+                        Boolean. Default: false
+  fps-den             : Framerate denominator
+                        flags: readable, writable
+                        Unsigned Integer. Range: 1 - 4294967295 Default: 1 
+  fps-num             : Framerate numerator
+                        flags: readable, writable
+                        Unsigned Integer. Range: 1 - 4294967295 Default: 30 
+  height              : Frame height
+                        flags: readable, writable
+                        Unsigned Integer. Range: 1 - 4294967295 Default: 480 
+  name                : The name of the object
+                        flags: readable, writable, 0x2000
+                        String. Default: "arducamsrc0"
+  num-buffers         : Number of buffers to output before sending EOS (-1 = unlimited)
+                        flags: readable, writable
+                        Integer. Range: -1 - 2147483647 Default: -1 
+  parent              : The parent of the object
+                        flags: readable, writable, 0x2000
+                        Object of type "GstObject"
+  typefind            : Run typefind before negotiating (deprecated, non-functional)
+                        flags: readable, writable, deprecated
+                        Boolean. Default: false
+  width               : Frame width
+                        flags: readable, writable
+                        Unsigned Integer. Range: 1 - 4294967295 Default: 640 
