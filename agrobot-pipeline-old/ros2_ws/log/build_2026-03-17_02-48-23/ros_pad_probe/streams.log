@@ -1,0 +1,23 @@
+[1.555s] Invoking command in '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/src/ros_pad_probe': PYTHONPATH=/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/ros_pad_probe/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_pad_probe build --build-base /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/ros_pad_probe/build install --record /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/ros_pad_probe/install.log --single-version-externally-managed install_data
+[1.974s] running egg_info
+[1.974s] creating ../../build/ros_pad_probe/ros_pad_probe.egg-info
+[1.996s] writing ../../build/ros_pad_probe/ros_pad_probe.egg-info/PKG-INFO
+[1.997s] writing dependency_links to ../../build/ros_pad_probe/ros_pad_probe.egg-info/dependency_links.txt
+[1.997s] writing requirements to ../../build/ros_pad_probe/ros_pad_probe.egg-info/requires.txt
+[1.998s] writing top-level names to ../../build/ros_pad_probe/ros_pad_probe.egg-info/top_level.txt
+[1.998s] writing manifest file '../../build/ros_pad_probe/ros_pad_probe.egg-info/SOURCES.txt'
+[2.021s] reading manifest file '../../build/ros_pad_probe/ros_pad_probe.egg-info/SOURCES.txt'
+[2.023s] writing manifest file '../../build/ros_pad_probe/ros_pad_probe.egg-info/SOURCES.txt'
+[2.023s] running build
+[2.023s] running install
+[2.035s] running install_data
+[2.035s] creating /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/share/ament_index
+[2.036s] creating /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/share/ament_index/resource_index
+[2.036s] creating /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/share/ament_index/resource_index/packages
+[2.036s] copying resource/ros_pad_probe -> /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/share/ament_index/resource_index/packages
+[2.036s] copying package.xml -> /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/share/ros_pad_probe
+[2.037s] running install_egg_info
+[2.085s] Copying ../../build/ros_pad_probe/ros_pad_probe.egg-info to /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/lib/python3.10/site-packages/ros_pad_probe-0.0.0-py3.10.egg-info
+[2.087s] running install_scripts
+[2.316s] writing list of installed files to '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/ros_pad_probe/install.log'
+[2.392s] Invoked command in '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/src/ros_pad_probe' returned '0': PYTHONPATH=/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/ros_pad_probe/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_pad_probe build --build-base /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/ros_pad_probe/build install --record /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/ros_pad_probe/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+source;share/agrobot_msgs/local_setup.bash
+source;share/agrobot_msgs/local_setup.dsv
+source;share/agrobot_msgs/local_setup.sh
+source;share/agrobot_msgs/local_setup.zsh

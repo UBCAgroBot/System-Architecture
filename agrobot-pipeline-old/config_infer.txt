@@ -1,0 +1,25 @@
+[property]
+gpu-id=0
+model-color-format=0
+net-scale-factor=0.0039215697906911373
+
+# Make sure these are still your absolute paths!
+onnx-file=/workspaces/daniels-wonderland/agrobot-pipeline/models/best.onnx
+model-engine-file=/workspaces/daniels-wonderland/agrobot-pipeline/models/best.engine
+
+infer-dims=3;640;640
+num-detected-classes=3
+network-mode=2
+
+# The missing piece:
+gie-unique-id=1
+
+# Prevents image distortion
+maintain-aspect-ratio=1
+
+parse-bbox-func-name=NvDsInferParseYolo
+custom-lib-path=/workspaces/daniels-wonderland/DeepStream-Yolo/nvdsinfer_custom_impl_Yolo/libnvdsinfer_custom_impl_Yolo.so
+
+[class-attrs-all]
+nms-iou-threshold=0.45
+pre-cluster-threshold=0.25

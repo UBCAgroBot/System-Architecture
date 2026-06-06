@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from agrobot_msgs/srv/NavPosition.srv
+// generated code does not contain a copyright notice
+
+
+module agrobot_msgs {
+  module srv {
+    struct NavPosition_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct NavPosition_Response {
+      int32 row;
+
+      float distance;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+setup.py
+agrobot_msgs/__init__.py
+agrobot_msgs.egg-info/PKG-INFO
+agrobot_msgs.egg-info/SOURCES.txt
+agrobot_msgs.egg-info/dependency_links.txt
+agrobot_msgs.egg-info/top_level.txt
+agrobot_msgs/msg/__init__.py
+agrobot_msgs/msg/_detection.py

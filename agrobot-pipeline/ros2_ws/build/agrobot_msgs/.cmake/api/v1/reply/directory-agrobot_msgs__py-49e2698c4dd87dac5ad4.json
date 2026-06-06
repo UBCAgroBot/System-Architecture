@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "agrobot_msgs__py",
+		"source" : "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/agrobot_msgs/agrobot_msgs__py"
+	}
+}

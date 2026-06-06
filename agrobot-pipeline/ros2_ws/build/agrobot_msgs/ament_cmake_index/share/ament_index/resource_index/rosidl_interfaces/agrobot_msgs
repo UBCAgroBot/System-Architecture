@@ -1,0 +1,6 @@
+msg/Detection.idl
+msg/Detection.msg
+srv/NavPosition.idl
+srv/NavPosition.srv
+srv/NavPosition_Request.msg
+srv/NavPosition_Response.msg

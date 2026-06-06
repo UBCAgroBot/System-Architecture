@@ -1,0 +1,7 @@
+{
+  "package_name": "agrobot_msgs",
+  "non_idl_tuples": [
+    "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/src/agrobot_msgs:msg/Detection.msg",
+    "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/src/agrobot_msgs:srv/NavPosition.srv"
+  ]
+}

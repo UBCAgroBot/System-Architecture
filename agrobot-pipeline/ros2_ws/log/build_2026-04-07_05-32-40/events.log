@@ -1,0 +1,351 @@
+[0.000000] (-) TimerEvent: {}
+[0.000588] (-) JobUnselected: {'identifier': 'ros_pad_probe'}
+[0.001079] (agrobot_msgs) JobQueued: {'identifier': 'agrobot_msgs', 'dependencies': OrderedDict()}
+[0.001355] (agrobot_msgs) JobStarted: {'identifier': 'agrobot_msgs'}
+[0.074434] (agrobot_msgs) JobProgress: {'identifier': 'agrobot_msgs', 'progress': 'cmake'}
+[0.075530] (agrobot_msgs) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/src/agrobot_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs'], 'cwd': '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/agrobot_msgs', 'env': OrderedDict([('NPP_VERSION', '12.2.1.4'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLORTERM', 'truecolor'), ('DALI_BUILD', ''), ('CUSOLVER_VERSION', '11.5.2.141'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('PLATFORM', 'jetson'), ('CUBLAS_VERSION', '12.2.5.6'), ('PKG_CONFIG_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/aarch64-linux-gnu/pkgconfig:/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('GST_GL_PLATFORM', 'egl'), ('HOSTNAME', 'jetson-orin-nx16'), ('DCGM_VERSION', '3.2.6'), ('GST_GL_WINDOW', 'surfaceless'), ('CUFFT_VERSION', '11.0.8.103'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=9.0'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-649d6be3-3702-46ac-8be3-793b9e2528df.sock'), ('CUDA_CACHE_DISABLE', '1'), ('TAG', 'gmc1'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-649d6be3-3702-46ac-8be3-793b9e2528df.sock'), ('NCCL_VERSION', '2.18.5'), ('ROS_PACKAGE_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share'), ('DS_REL_PKG_DIR', 'deepstream_sdk_v7.0.0_jetson'), ('CUSPARSE_VERSION', '12.1.2.141'), ('ENV', '/etc/shinit_v2'), ('PWD', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/agrobot_msgs'), ('GST_REGISTRY_REUSE_PLUGIN_SCANNER', '0'), ('DS_VERSION', '7.0.0'), ('OPENUCX_VERSION', '1.16.0'), ('NSIGHT_SYSTEMS_VERSION', '12.2.12.005'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,video,graphics,utility'), ('POLYGRAPHY_VERSION', ''), ('TF_ENABLE_WINOGRAD_NONFUSED', '1'), ('XAUTHORITY', ''), ('TRT_VERSION', '8.6.2.3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node'), ('NVIDIA_PRODUCT_NAME', 'Triton Server'), ('RDMACORE_VERSION', '39.0'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1:/lib/aarch64-linux-gnu/libGLdispatch.so:'), ('HOME', '/home/vscode'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('REMOTE_CONTAINERS', 'true'), ('CUDA_VERSION', '12.2.12.005'), ('WAYLAND_DISPLAY', ''), ('CURAND_VERSION', '10.3.3.141'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs'), ('TCMALLOC_RELEASE_RATE', '200'), ('COLCON_PREFIX_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install'), ('CUTENSOR_VERSION', ''), ('DS', '/opt/nvidia/deepstream/deepstream-7.0'), ('TRITON_SERVER_GPU_ENABLED', '1'), ('HPCX_VERSION', '2.18'), ('EGL_PLATFORM', 'surfaceless'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('TRITON_SERVER_VERSION', '2.44.0'), ('GDRCOPY_VERSION', '2.3.1-1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-649d6be3-3702-46ac-8be3-793b9e2528df.sock","/home/vscode/.gnupg/S.gpg-agent"]'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('OPENMPI_VERSION', '4.1.7'), ('NVJPEG_VERSION', '12.2.12.005'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-5289d631e9.sock'), ('DISPLAY', ':1001'), ('SHLVL', '3'), ('BASH_ENV', '/etc/bash.bashrc'), ('TF_AUTOTUNE_THRESHOLD', '2'), ('CUDNN_VERSION', '8.9.4.25+kitpick001'), ('NSIGHT_COMPUTE_VERSION', '12.2.12.005'), ('DALI_VERSION', ''), ('NVIDIA_TRITON_SERVER_VERSION', '24.03'), ('GST_PLUGIN_PATH', '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/deepstream:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/gstreamer-1.0'), ('LD_LIBRARY_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/nvidia/deepstream/deepstream-7.0/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/opt/tritonserver/lib:/usr/local/cuda-12.2/lib64'), ('NVIDIA_BUILD_ID', '86102636'), ('ROS_LOCALHOST_ONLY', '0'), ('OMPI_MCA_coll_hcoll_enable', '0'), ('OPAL_PREFIX', '/opt/hpcx/ompi'), ('CUDA_DRIVER_VERSION', '535.104.05'), ('TRANSFORMER_ENGINE_VERSION', ''), ('_CUDA_COMPAT_PATH', '/usr/local/cuda/compat'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js'), ('NVIDIA_REQUIRE_JETPACK_HOST_MOUNTS', 'base-only'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/helpers/browser.sh'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/opt/ros/humble/bin:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/home/vscode/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('TRITON_SERVER_USER', 'triton-server'), ('PYTHONWARNINGS', 'ignore'), ('MOFED_VERSION', '5.4-rdmacore39.0'), ('TRTOSS_VERSION', '23.08'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('TF_ADJUST_HUE_FUSED', '1'), ('DS_REL_PKG', 'deepstream_sdk_v7.0.0_jetson.tbz2'), ('TF_ADJUST_SATURATION_FUSED', '1'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', ''), ('UCX_MEM_EVENTS', 'no'), ('OLDPWD', '/workspaces/daniels-wonderland'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f689dcf3-b51c-4a67-a585-6cb98c327322.sock'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099538] (-) TimerEvent: {}
+[0.200218] (-) TimerEvent: {}
+[0.300972] (-) TimerEvent: {}
+[0.347535] (agrobot_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401138] (-) TimerEvent: {}
+[0.484759] (agrobot_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.501312] (-) TimerEvent: {}
+[0.502940] (agrobot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601499] (-) TimerEvent: {}
+[0.702256] (-) TimerEvent: {}
+[0.803099] (-) TimerEvent: {}
+[0.843694] (agrobot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.869411] (agrobot_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.870176] (agrobot_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.871597] (agrobot_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.882996] (agrobot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.903168] (-) TimerEvent: {}
+[1.003810] (-) TimerEvent: {}
+[1.104565] (-) TimerEvent: {}
+[1.196966] (agrobot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.204644] (-) TimerEvent: {}
+[1.223676] (agrobot_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.224700] (agrobot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.226321] (agrobot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.235169] (agrobot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.304813] (-) TimerEvent: {}
+[1.405479] (-) TimerEvent: {}
+[1.506298] (-) TimerEvent: {}
+[1.607348] (-) TimerEvent: {}
+[1.708148] (-) TimerEvent: {}
+[1.808938] (-) TimerEvent: {}
+[1.909605] (-) TimerEvent: {}
+[1.990835] (agrobot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.009687] (-) TimerEvent: {}
+[2.110241] (-) TimerEvent: {}
+[2.210948] (-) TimerEvent: {}
+[2.211704] (agrobot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.220992] (agrobot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.238061] (agrobot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.311179] (-) TimerEvent: {}
+[2.314069] (agrobot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.383939] (agrobot_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[2.411331] (-) TimerEvent: {}
+[2.512048] (-) TimerEvent: {}
+[2.612678] (-) TimerEvent: {}
+[2.713310] (-) TimerEvent: {}
+[2.813989] (-) TimerEvent: {}
+[2.914749] (-) TimerEvent: {}
+[2.948410] (agrobot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.014938] (-) TimerEvent: {}
+[3.115750] (-) TimerEvent: {}
+[3.216477] (-) TimerEvent: {}
+[3.317126] (-) TimerEvent: {}
+[3.356513] (agrobot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.417272] (-) TimerEvent: {}
+[3.517977] (-) TimerEvent: {}
+[3.618709] (-) TimerEvent: {}
+[3.719551] (-) TimerEvent: {}
+[3.820397] (-) TimerEvent: {}
+[3.880922] (agrobot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.920587] (-) TimerEvent: {}
+[3.926892] (agrobot_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.931439] (agrobot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.982424] (agrobot_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.982975] (agrobot_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.983197] (agrobot_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.983374] (agrobot_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[4.020592] (agrobot_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.021271] (-) TimerEvent: {}
+[4.121902] (-) TimerEvent: {}
+[4.222662] (-) TimerEvent: {}
+[4.256989] (agrobot_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.322865] (-) TimerEvent: {}
+[4.335271] (agrobot_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.340485] (agrobot_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[4.340758] (agrobot_msgs) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[4.340924] (agrobot_msgs) StderrLine: {'line': b'\n'}
+[4.341071] (agrobot_msgs) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[4.341209] (agrobot_msgs) StderrLine: {'line': b'\n'}
+[4.341341] (agrobot_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[4.357856] (agrobot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/agrobot_msgs\n'}
+[4.373736] (agrobot_msgs) CommandEnded: {'returncode': 0}
+[4.375308] (agrobot_msgs) JobProgress: {'identifier': 'agrobot_msgs', 'progress': 'build'}
+[4.377765] (agrobot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/agrobot_msgs', '--', '-j8', '-l8'], 'cwd': '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/agrobot_msgs', 'env': OrderedDict([('NPP_VERSION', '12.2.1.4'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLORTERM', 'truecolor'), ('DALI_BUILD', ''), ('CUSOLVER_VERSION', '11.5.2.141'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('PLATFORM', 'jetson'), ('CUBLAS_VERSION', '12.2.5.6'), ('PKG_CONFIG_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/aarch64-linux-gnu/pkgconfig:/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('GST_GL_PLATFORM', 'egl'), ('HOSTNAME', 'jetson-orin-nx16'), ('DCGM_VERSION', '3.2.6'), ('GST_GL_WINDOW', 'surfaceless'), ('CUFFT_VERSION', '11.0.8.103'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=9.0'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-649d6be3-3702-46ac-8be3-793b9e2528df.sock'), ('CUDA_CACHE_DISABLE', '1'), ('TAG', 'gmc1'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-649d6be3-3702-46ac-8be3-793b9e2528df.sock'), ('NCCL_VERSION', '2.18.5'), ('ROS_PACKAGE_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share'), ('DS_REL_PKG_DIR', 'deepstream_sdk_v7.0.0_jetson'), ('CUSPARSE_VERSION', '12.1.2.141'), ('ENV', '/etc/shinit_v2'), ('PWD', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/agrobot_msgs'), ('GST_REGISTRY_REUSE_PLUGIN_SCANNER', '0'), ('DS_VERSION', '7.0.0'), ('OPENUCX_VERSION', '1.16.0'), ('NSIGHT_SYSTEMS_VERSION', '12.2.12.005'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,video,graphics,utility'), ('POLYGRAPHY_VERSION', ''), ('TF_ENABLE_WINOGRAD_NONFUSED', '1'), ('XAUTHORITY', ''), ('TRT_VERSION', '8.6.2.3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node'), ('NVIDIA_PRODUCT_NAME', 'Triton Server'), ('RDMACORE_VERSION', '39.0'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1:/lib/aarch64-linux-gnu/libGLdispatch.so:'), ('HOME', '/home/vscode'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('REMOTE_CONTAINERS', 'true'), ('CUDA_VERSION', '12.2.12.005'), ('WAYLAND_DISPLAY', ''), ('CURAND_VERSION', '10.3.3.141'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs'), ('TCMALLOC_RELEASE_RATE', '200'), ('COLCON_PREFIX_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install'), ('CUTENSOR_VERSION', ''), ('DS', '/opt/nvidia/deepstream/deepstream-7.0'), ('TRITON_SERVER_GPU_ENABLED', '1'), ('HPCX_VERSION', '2.18'), ('EGL_PLATFORM', 'surfaceless'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('TRITON_SERVER_VERSION', '2.44.0'), ('GDRCOPY_VERSION', '2.3.1-1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-649d6be3-3702-46ac-8be3-793b9e2528df.sock","/home/vscode/.gnupg/S.gpg-agent"]'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('OPENMPI_VERSION', '4.1.7'), ('NVJPEG_VERSION', '12.2.12.005'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-5289d631e9.sock'), ('DISPLAY', ':1001'), ('SHLVL', '3'), ('BASH_ENV', '/etc/bash.bashrc'), ('TF_AUTOTUNE_THRESHOLD', '2'), ('CUDNN_VERSION', '8.9.4.25+kitpick001'), ('NSIGHT_COMPUTE_VERSION', '12.2.12.005'), ('DALI_VERSION', ''), ('NVIDIA_TRITON_SERVER_VERSION', '24.03'), ('GST_PLUGIN_PATH', '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/deepstream:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/gstreamer-1.0'), ('LD_LIBRARY_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/nvidia/deepstream/deepstream-7.0/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/opt/tritonserver/lib:/usr/local/cuda-12.2/lib64'), ('NVIDIA_BUILD_ID', '86102636'), ('ROS_LOCALHOST_ONLY', '0'), ('OMPI_MCA_coll_hcoll_enable', '0'), ('OPAL_PREFIX', '/opt/hpcx/ompi'), ('CUDA_DRIVER_VERSION', '535.104.05'), ('TRANSFORMER_ENGINE_VERSION', ''), ('_CUDA_COMPAT_PATH', '/usr/local/cuda/compat'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js'), ('NVIDIA_REQUIRE_JETPACK_HOST_MOUNTS', 'base-only'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/helpers/browser.sh'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/opt/ros/humble/bin:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/home/vscode/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('TRITON_SERVER_USER', 'triton-server'), ('PYTHONWARNINGS', 'ignore'), ('MOFED_VERSION', '5.4-rdmacore39.0'), ('TRTOSS_VERSION', '23.08'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('TF_ADJUST_HUE_FUSED', '1'), ('DS_REL_PKG', 'deepstream_sdk_v7.0.0_jetson.tbz2'), ('TF_ADJUST_SATURATION_FUSED', '1'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', ''), ('UCX_MEM_EVENTS', 'no'), ('OLDPWD', '/workspaces/daniels-wonderland'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f689dcf3-b51c-4a67-a585-6cb98c327322.sock'), ('_', '/usr/bin/env')]), 'shell': False}
+[4.423031] (-) TimerEvent: {}
+[4.523719] (-) TimerEvent: {}
+[4.544233] (agrobot_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.623877] (-) TimerEvent: {}
+[4.633203] (agrobot_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[4.633877] (agrobot_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.658625] (agrobot_msgs) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_agrobot_msgs\n'}
+[4.724043] (-) TimerEvent: {}
+[4.824671] (-) TimerEvent: {}
+[4.925293] (-) TimerEvent: {}
+[5.025927] (-) TimerEvent: {}
+[5.126635] (-) TimerEvent: {}
+[5.182915] (agrobot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.185307] (agrobot_msgs) StdoutLine: {'line': b'creating agrobot_msgs.egg-info\n'}
+[5.212007] (agrobot_msgs) StdoutLine: {'line': b'writing agrobot_msgs.egg-info/PKG-INFO\n'}
+[5.212910] (agrobot_msgs) StdoutLine: {'line': b'writing dependency_links to agrobot_msgs.egg-info/dependency_links.txt\n'}
+[5.213553] (agrobot_msgs) StdoutLine: {'line': b'writing top-level names to agrobot_msgs.egg-info/top_level.txt\n'}
+[5.214119] (agrobot_msgs) StdoutLine: {'line': b"writing manifest file 'agrobot_msgs.egg-info/SOURCES.txt'\n"}
+[5.226786] (-) TimerEvent: {}
+[5.258951] (agrobot_msgs) StdoutLine: {'line': b'[  9%] Built target agrobot_msgs__rs\n'}
+[5.259511] (agrobot_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/agrobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/agrobot_msgs/msg/detail/detection__functions.c.o\x1b[0m\n'}
+[5.273791] (agrobot_msgs) StdoutLine: {'line': b'[ 12%] Built target agrobot_msgs__cpp\n'}
+[5.287707] (agrobot_msgs) StdoutLine: {'line': b"reading manifest file 'agrobot_msgs.egg-info/SOURCES.txt'\n"}
+[5.289277] (agrobot_msgs) StdoutLine: {'line': b"writing manifest file 'agrobot_msgs.egg-info/SOURCES.txt'\n"}
+[5.327033] (-) TimerEvent: {}
+[5.366031] (agrobot_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.370771] (agrobot_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.371536] (agrobot_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.427251] (-) TimerEvent: {}
+[5.441276] (agrobot_msgs) StdoutLine: {'line': b'[ 25%] Built target ament_cmake_python_build_agrobot_msgs_egg\n'}
+[5.441874] (agrobot_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libagrobot_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.527411] (-) TimerEvent: {}
+[5.575145] (agrobot_msgs) StdoutLine: {'line': b'[ 25%] Built target agrobot_msgs__rosidl_generator_c\n'}
+[5.627615] (-) TimerEvent: {}
+[5.666844] (agrobot_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.667431] (agrobot_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.673042] (agrobot_msgs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.731746] (-) TimerEvent: {}
+[5.832411] (-) TimerEvent: {}
+[5.933161] (-) TimerEvent: {}
+[6.007596] (agrobot_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/agrobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/agrobot_msgs/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[6.033353] (-) TimerEvent: {}
+[6.044462] (agrobot_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/agrobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/agrobot_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o\x1b[0m\n'}
+[6.045613] (agrobot_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/agrobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agrobot_msgs/msg/detail/detection__type_support.cpp.o\x1b[0m\n'}
+[6.133551] (-) TimerEvent: {}
+[6.234312] (-) TimerEvent: {}
+[6.307482] (agrobot_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/agrobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/agrobot_msgs/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[6.334537] (-) TimerEvent: {}
+[6.353764] (agrobot_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/agrobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/agrobot_msgs/msg/detail/detection__type_support.c.o\x1b[0m\n'}
+[6.380361] (agrobot_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/agrobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agrobot_msgs/msg/detail/detection__type_support_c.cpp.o\x1b[0m\n'}
+[6.434724] (-) TimerEvent: {}
+[6.484312] (agrobot_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libagrobot_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.501569] (agrobot_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libagrobot_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.534929] (-) TimerEvent: {}
+[6.636603] (-) TimerEvent: {}
+[6.664837] (agrobot_msgs) StdoutLine: {'line': b'[ 59%] Built target agrobot_msgs__rosidl_typesupport_c\n'}
+[6.672187] (agrobot_msgs) StdoutLine: {'line': b'[ 59%] Built target agrobot_msgs__rosidl_typesupport_introspection_c\n'}
+[6.732547] (agrobot_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libagrobot_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.736745] (-) TimerEvent: {}
+[6.837489] (-) TimerEvent: {}
+[6.874401] (agrobot_msgs) StdoutLine: {'line': b'[ 62%] Built target agrobot_msgs__rosidl_typesupport_cpp\n'}
+[6.937666] (-) TimerEvent: {}
+[7.000310] (agrobot_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libagrobot_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.031637] (agrobot_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libagrobot_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.037805] (-) TimerEvent: {}
+[7.138489] (-) TimerEvent: {}
+[7.143386] (agrobot_msgs) StdoutLine: {'line': b'[ 68%] Built target agrobot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.234007] (agrobot_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libagrobot_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.238586] (-) TimerEvent: {}
+[7.261301] (agrobot_msgs) StdoutLine: {'line': b'[ 71%] Built target agrobot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.338789] (-) TimerEvent: {}
+[7.439508] (-) TimerEvent: {}
+[7.463407] (agrobot_msgs) StdoutLine: {'line': b'[ 71%] Built target agrobot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.539682] (-) TimerEvent: {}
+[7.640386] (-) TimerEvent: {}
+[7.641059] (agrobot_msgs) StdoutLine: {'line': b'[ 71%] Built target agrobot_msgs\n'}
+[7.740565] (-) TimerEvent: {}
+[7.806651] (agrobot_msgs) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.840764] (-) TimerEvent: {}
+[7.941468] (-) TimerEvent: {}
+[8.042075] (-) TimerEvent: {}
+[8.142665] (-) TimerEvent: {}
+[8.243347] (-) TimerEvent: {}
+[8.343960] (-) TimerEvent: {}
+[8.444597] (-) TimerEvent: {}
+[8.545450] (-) TimerEvent: {}
+[8.557244] (agrobot_msgs) StdoutLine: {'line': b'[ 75%] Built target agrobot_msgs__py\n'}
+[8.645639] (-) TimerEvent: {}
+[8.736078] (agrobot_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/agrobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/agrobot_msgs/msg/_detection_s.c.o\x1b[0m\n'}
+[8.745840] (-) TimerEvent: {}
+[8.846877] (-) TimerEvent: {}
+[8.947871] (-) TimerEvent: {}
+[9.033264] (agrobot_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/agrobot_msgs/libagrobot_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[9.048060] (-) TimerEvent: {}
+[9.148860] (-) TimerEvent: {}
+[9.185613] (agrobot_msgs) StdoutLine: {'line': b'[ 81%] Built target agrobot_msgs__rosidl_generator_py\n'}
+[9.249049] (-) TimerEvent: {}
+[9.349770] (-) TimerEvent: {}
+[9.377903] (agrobot_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/agrobot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/agrobot_msgs/_agrobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.378495] (agrobot_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/agrobot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/agrobot_msgs/_agrobot_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.378836] (agrobot_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/agrobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/agrobot_msgs/_agrobot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.449954] (-) TimerEvent: {}
+[9.550651] (-) TimerEvent: {}
+[9.651369] (-) TimerEvent: {}
+[9.704826] (agrobot_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[9.705470] (agrobot_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[9.705734] (agrobot_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[9.751544] (-) TimerEvent: {}
+[9.852301] (-) TimerEvent: {}
+[9.867330] (agrobot_msgs) StdoutLine: {'line': b'[100%] Built target agrobot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.868038] (agrobot_msgs) StdoutLine: {'line': b'[100%] Built target agrobot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.868318] (agrobot_msgs) StdoutLine: {'line': b'[100%] Built target agrobot_msgs__rosidl_typesupport_c__pyext\n'}
+[9.910372] (agrobot_msgs) CommandEnded: {'returncode': 0}
+[9.914068] (agrobot_msgs) JobProgress: {'identifier': 'agrobot_msgs', 'progress': 'install'}
+[9.934269] (agrobot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/agrobot_msgs'], 'cwd': '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/agrobot_msgs', 'env': OrderedDict([('NPP_VERSION', '12.2.1.4'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLORTERM', 'truecolor'), ('DALI_BUILD', ''), ('CUSOLVER_VERSION', '11.5.2.141'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('PLATFORM', 'jetson'), ('CUBLAS_VERSION', '12.2.5.6'), ('PKG_CONFIG_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/aarch64-linux-gnu/pkgconfig:/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('GST_GL_PLATFORM', 'egl'), ('HOSTNAME', 'jetson-orin-nx16'), ('DCGM_VERSION', '3.2.6'), ('GST_GL_WINDOW', 'surfaceless'), ('CUFFT_VERSION', '11.0.8.103'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=9.0'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-649d6be3-3702-46ac-8be3-793b9e2528df.sock'), ('CUDA_CACHE_DISABLE', '1'), ('TAG', 'gmc1'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-649d6be3-3702-46ac-8be3-793b9e2528df.sock'), ('NCCL_VERSION', '2.18.5'), ('ROS_PACKAGE_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share'), ('DS_REL_PKG_DIR', 'deepstream_sdk_v7.0.0_jetson'), ('CUSPARSE_VERSION', '12.1.2.141'), ('ENV', '/etc/shinit_v2'), ('PWD', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/agrobot_msgs'), ('GST_REGISTRY_REUSE_PLUGIN_SCANNER', '0'), ('DS_VERSION', '7.0.0'), ('OPENUCX_VERSION', '1.16.0'), ('NSIGHT_SYSTEMS_VERSION', '12.2.12.005'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,video,graphics,utility'), ('POLYGRAPHY_VERSION', ''), ('TF_ENABLE_WINOGRAD_NONFUSED', '1'), ('XAUTHORITY', ''), ('TRT_VERSION', '8.6.2.3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node'), ('NVIDIA_PRODUCT_NAME', 'Triton Server'), ('RDMACORE_VERSION', '39.0'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1:/lib/aarch64-linux-gnu/libGLdispatch.so:'), ('HOME', '/home/vscode'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('REMOTE_CONTAINERS', 'true'), ('CUDA_VERSION', '12.2.12.005'), ('WAYLAND_DISPLAY', ''), ('CURAND_VERSION', '10.3.3.141'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs'), ('TCMALLOC_RELEASE_RATE', '200'), ('COLCON_PREFIX_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install'), ('CUTENSOR_VERSION', ''), ('DS', '/opt/nvidia/deepstream/deepstream-7.0'), ('TRITON_SERVER_GPU_ENABLED', '1'), ('HPCX_VERSION', '2.18'), ('EGL_PLATFORM', 'surfaceless'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('TRITON_SERVER_VERSION', '2.44.0'), ('GDRCOPY_VERSION', '2.3.1-1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-649d6be3-3702-46ac-8be3-793b9e2528df.sock","/home/vscode/.gnupg/S.gpg-agent"]'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('OPENMPI_VERSION', '4.1.7'), ('NVJPEG_VERSION', '12.2.12.005'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-5289d631e9.sock'), ('DISPLAY', ':1001'), ('SHLVL', '3'), ('BASH_ENV', '/etc/bash.bashrc'), ('TF_AUTOTUNE_THRESHOLD', '2'), ('CUDNN_VERSION', '8.9.4.25+kitpick001'), ('NSIGHT_COMPUTE_VERSION', '12.2.12.005'), ('DALI_VERSION', ''), ('NVIDIA_TRITON_SERVER_VERSION', '24.03'), ('GST_PLUGIN_PATH', '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/deepstream:/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:/usr/local/lib/gstreamer-1.0'), ('LD_LIBRARY_PATH', '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/nvidia/deepstream/deepstream-7.0/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu:/opt/tritonserver/lib:/usr/local/cuda-12.2/lib64'), ('NVIDIA_BUILD_ID', '86102636'), ('ROS_LOCALHOST_ONLY', '0'), ('OMPI_MCA_coll_hcoll_enable', '0'), ('OPAL_PREFIX', '/opt/hpcx/ompi'), ('CUDA_DRIVER_VERSION', '535.104.05'), ('TRANSFORMER_ENGINE_VERSION', ''), ('_CUDA_COMPAT_PATH', '/usr/local/cuda/compat'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js'), ('NVIDIA_REQUIRE_JETPACK_HOST_MOUNTS', 'base-only'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/helpers/browser.sh'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/opt/ros/humble/bin:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/home/vscode/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('TRITON_SERVER_USER', 'triton-server'), ('PYTHONWARNINGS', 'ignore'), ('MOFED_VERSION', '5.4-rdmacore39.0'), ('TRTOSS_VERSION', '23.08'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('TF_ADJUST_HUE_FUSED', '1'), ('DS_REL_PKG', 'deepstream_sdk_v7.0.0_jetson.tbz2'), ('TF_ADJUST_SATURATION_FUSED', '1'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', ''), ('UCX_MEM_EVENTS', 'no'), ('OLDPWD', '/workspaces/daniels-wonderland'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f689dcf3-b51c-4a67-a585-6cb98c327322.sock'), ('_', '/usr/bin/env')]), 'shell': False}
+[9.952424] (-) TimerEvent: {}
+[9.955301] (agrobot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.955697] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/ament_index/resource_index/rosidl_interfaces/agrobot_msgs\n'}
+[9.955961] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs\n'}
+[9.956197] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg\n'}
+[9.956371] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detection.h\n'}
+[9.956564] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.956766] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail\n'}
+[9.957093] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__struct.h\n'}
+[9.957361] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__functions.c\n'}
+[9.957611] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__functions.h\n'}
+[9.957877] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__type_support.h\n'}
+[9.958136] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/environment/library_path.sh\n'}
+[9.958385] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/environment/library_path.dsv\n'}
+[9.958880] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_generator_c.so\n'}
+[9.960045] (agrobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_generator_c.so" to ""\n'}
+[9.960443] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs\n'}
+[9.960794] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg\n'}
+[9.961037] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.961315] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail\n'}
+[9.961683] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h\n'}
+[9.962138] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.962484] (agrobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.962780] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs\n'}
+[9.963069] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg\n'}
+[9.963283] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.963534] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail\n'}
+[9.963739] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h\n'}
+[9.964135] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__type_support.c\n'}
+[9.964446] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.964669] (agrobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.964972] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_c.so\n'}
+[9.965248] (agrobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.965536] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs\n'}
+[9.965788] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg\n'}
+[9.966066] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detection.hpp\n'}
+[9.966339] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail\n'}
+[9.966562] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__builder.hpp\n'}
+[9.966818] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__struct.hpp\n'}
+[9.967318] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__traits.hpp\n'}
+[9.967674] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__type_support.hpp\n'}
+[9.967973] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.968208] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs\n'}
+[9.968493] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg\n'}
+[9.968723] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail\n'}
+[9.968980] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/dds_fastrtps\n'}
+[9.969319] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.969553] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.969836] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.970058] (agrobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.970346] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs\n'}
+[9.970569] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg\n'}
+[9.970857] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail\n'}
+[9.971161] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.971398] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/include/agrobot_msgs/agrobot_msgs/msg/detail/detection__type_support.cpp\n'}
+[9.971684] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.971916] (agrobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.972198] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_cpp.so\n'}
+[9.972506] (agrobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.972790] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/environment/pythonpath.sh\n'}
+[9.973074] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/environment/pythonpath.dsv\n'}
+[9.973350] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs-0.0.1-py3.10.egg-info\n'}
+[9.973644] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[9.973941] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[9.974212] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[9.974493] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[9.974765] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs\n'}
+[9.975029] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/_agrobot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.975563] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/libagrobot_msgs__rosidl_generator_py.so\n'}
+[9.975938] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.976313] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.976637] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/_agrobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.976944] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/__init__.py\n'}
+[9.977195] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/_agrobot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[9.977432] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.977673] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/msg\n'}
+[9.977911] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/msg/_detection_s.c\n'}
+[9.978146] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/msg/_detection.py\n'}
+[9.978384] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/msg/__init__.py\n'}
+[10.050815] (agrobot_msgs) StdoutLine: {'line': b"Listing '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs'...\n"}
+[10.051353] (agrobot_msgs) StdoutLine: {'line': b"Compiling '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/__init__.py'...\n"}
+[10.051553] (agrobot_msgs) StdoutLine: {'line': b"Listing '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/msg'...\n"}
+[10.051706] (agrobot_msgs) StdoutLine: {'line': b"Compiling '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/msg/__init__.py'...\n"}
+[10.051853] (agrobot_msgs) StdoutLine: {'line': b"Compiling '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/msg/_detection.py'...\n"}
+[10.052500] (-) TimerEvent: {}
+[10.063921] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[10.064471] (agrobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[10.064838] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[10.065429] (agrobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[10.065803] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[10.066372] (agrobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/local/lib/python3.10/dist-packages/agrobot_msgs/agrobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[10.066679] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_generator_py.so\n'}
+[10.067374] (agrobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/lib/libagrobot_msgs__rosidl_generator_py.so" to ""\n'}
+[10.067578] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/ament_index/resource_index/rust_packages/agrobot_msgs\n'}
+[10.067800] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/rust\n'}
+[10.067992] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/rust/build.rs\n'}
+[10.068195] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/rust/Cargo.toml\n'}
+[10.068444] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/rust/src\n'}
+[10.068631] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/rust/src/msg.rs\n'}
+[10.068813] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/rust/src/lib.rs\n'}
+[10.069087] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/rust/src/msg\n'}
+[10.069332] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/rust/src/msg/rmw.rs\n'}
+[10.069537] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/msg/Detection.idl\n'}
+[10.069836] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/msg/Detection.msg\n'}
+[10.070017] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/ament_index/resource_index/package_run_dependencies/agrobot_msgs\n'}
+[10.070293] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/ament_index/resource_index/parent_prefix_path/agrobot_msgs\n'}
+[10.070665] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/environment/ament_prefix_path.sh\n'}
+[10.070848] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/environment/ament_prefix_path.dsv\n'}
+[10.071151] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/environment/path.sh\n'}
+[10.071367] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/environment/path.dsv\n'}
+[10.071581] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/local_setup.bash\n'}
+[10.071911] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/local_setup.sh\n'}
+[10.072249] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/local_setup.zsh\n'}
+[10.072572] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/local_setup.dsv\n'}
+[10.072879] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/package.dsv\n'}
+[10.073211] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/ament_index/resource_index/packages/agrobot_msgs\n'}
+[10.073633] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/export_agrobot_msgs__rosidl_generator_cExport.cmake\n'}
+[10.073978] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/export_agrobot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.074411] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/export_agrobot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.074751] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/export_agrobot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.075213] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/agrobot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.075552] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/agrobot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.075981] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/agrobot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[10.076325] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/agrobot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.076778] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/export_agrobot_msgs__rosidl_generator_cppExport.cmake\n'}
+[10.077198] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/export_agrobot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.077538] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/export_agrobot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.077984] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/agrobot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.078323] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/agrobot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.078759] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/agrobot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[10.079157] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/agrobot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.079576] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/export_agrobot_msgs__rosidl_generator_pyExport.cmake\n'}
+[10.079903] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/export_agrobot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.080246] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[10.080564] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.080922] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.081258] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.081595] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.081936] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.082298] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.082627] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/agrobot_msgsConfig.cmake\n'}
+[10.082910] (agrobot_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/cmake/agrobot_msgsConfig-version.cmake\n'}
+[10.083320] (agrobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/agrobot_msgs/share/agrobot_msgs/package.xml\n'}
+[10.088728] (agrobot_msgs) CommandEnded: {'returncode': 0}
+[10.147232] (agrobot_msgs) JobEnded: {'identifier': 'agrobot_msgs', 'rc': 0}
+[10.149695] (-) EventReactorShutdown: {}

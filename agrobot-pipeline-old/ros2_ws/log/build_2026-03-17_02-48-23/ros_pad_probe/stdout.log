@@ -1,0 +1,21 @@
+running egg_info
+creating ../../build/ros_pad_probe/ros_pad_probe.egg-info
+writing ../../build/ros_pad_probe/ros_pad_probe.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_pad_probe/ros_pad_probe.egg-info/dependency_links.txt
+writing requirements to ../../build/ros_pad_probe/ros_pad_probe.egg-info/requires.txt
+writing top-level names to ../../build/ros_pad_probe/ros_pad_probe.egg-info/top_level.txt
+writing manifest file '../../build/ros_pad_probe/ros_pad_probe.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros_pad_probe/ros_pad_probe.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros_pad_probe/ros_pad_probe.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/share/ament_index
+creating /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/share/ament_index/resource_index
+creating /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/share/ament_index/resource_index/packages
+copying resource/ros_pad_probe -> /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/share/ros_pad_probe
+running install_egg_info
+Copying ../../build/ros_pad_probe/ros_pad_probe.egg-info to /workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/install/ros_pad_probe/lib/python3.10/site-packages/ros_pad_probe-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/workspaces/daniels-wonderland/agrobot-pipeline/ros2_ws/build/ros_pad_probe/install.log'
